@@ -9,6 +9,6 @@ services:
     command: tail -f /dev/null
     working_dir: /app
     ports:
-      - "8080:5000"
+      - "5000:5000"
     volumes:
       - ./app:/app

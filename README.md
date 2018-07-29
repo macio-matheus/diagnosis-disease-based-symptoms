@@ -1,8 +1,8 @@
-# diagnosis-disease-based-symptoms
+# Diagnosis of diseases based on symptoms
 Simple API to demonstrate a Knowledge Based System (KBS). The KBS concept can be defined as methods that search in a space of possible solutions, using heuristics to make this search more efficient.
 
 
-### KBS Architecture 
+### Basic KBS Architecture 
 
 ![KBS architecture](https://raw.githubusercontent.com/macio-matheus/diagnosis-disease-based-symptoms/master/KBS-architecture.jpeg)
 

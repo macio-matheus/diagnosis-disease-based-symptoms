@@ -70,13 +70,7 @@ OBS: Select 5 symptoms per request, as in the example
 }
 ```
 
-output
 
-```sh
-{
-  "diagnosis": "caxumba"
-}
-```
 
 ### Basic example
 Example of request that returns the diagnosis of caxumba

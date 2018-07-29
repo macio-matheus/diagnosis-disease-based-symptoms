@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "38884db6-31d2-4993-bbb8-3de7b2faf044",
+		"name": "diagnosis-disease-based-symptoms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Example diagnosis catapora",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"symptoms\": [\n        \"febre\",\n        \"bolhas_vermelhas\",\n        \"coceira\",\n        \"dor_cabeca\",\n        \"dor_barriga\"\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://192.168.99.100:8080/diagnosis",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"99",
+						"100"
+					],
+					"port": "8080",
+					"path": [
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Example diagnosis dengue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"symptoms\": [\n        \"febre\",\n        \"bolhas_vermelhas\",\n        \"coceira\",\n        \"dor_cabeca\",\n        \"dor_barriga\"\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://192.168.99.100:8080/diagnosis",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"99",
+						"100"
+					],
+					"port": "8080",
+					"path": [
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Example diagnosis caxumba",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"symptoms\": [\n        \"febre\",\n        \"bolhas_vermelhas\",\n        \"coceira\",\n        \"dor_cabeca\",\n        \"dor_barriga\"\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://192.168.99.100:8080/diagnosis",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"99",
+						"100"
+					],
+					"port": "8080",
+					"path": [
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

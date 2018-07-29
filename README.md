@@ -1,5 +1,10 @@
 # diagnosis-disease-based-symptoms
-Simple API that demonstrates how it is possible based on symptoms, define which disease. The goal is to show how to get a simple diagnosis, integrating Python with Prolog to create a mini expert system with Symbolic Artificial Intelligence concept.
+Simple API to demonstrate a Knowledge Based System (KBS). The KBS concept can be defined as methods that search in a space of possible solutions, using heuristics to make this search more efficient.
+
+
+### KBS Architecture 
+
+
 
 ### Tech
 

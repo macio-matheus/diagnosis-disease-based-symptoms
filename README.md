@@ -8,14 +8,15 @@ Simple API to demonstrate a Knowledge Based System (KBS). The KBS concept can be
 
 ### Tech
 
-Dillinger uses a number of open source projects to work properly:
+Main technologies used in the project
 
 * [Python 3.6.4] - For the backend
 * [Flask Framework] - Python microframework
 * [prolog-swi] - Free Prolog environment
 
 ### Docker
-Dillinger is very easy to install and deploy in a Docker container.
+
+Easily deploy the application using docker
 
 In order to execute the application, it is necessary to perform the build of the docker compose, done that, the application can already be executed with the compose up.
 

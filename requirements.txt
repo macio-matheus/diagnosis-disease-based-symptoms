@@ -1,2 +1,7 @@
+click==6.7
 Flask==1.0.2
-pyswip
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pyswip==0.2.7
+Werkzeug==0.14.1

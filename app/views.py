@@ -27,7 +27,6 @@ def diagnosis():
         diag = 'Unknow'
 
     return jsonify({'diagnosis': diag})
-    # print(diag)
 
 
 class PrologMT(pyswip.Prolog):
@@ -44,12 +43,12 @@ class PrologMT(pyswip.Prolog):
     @classmethod
     def _init_prolog_thread(cls):
         pengine_id = cls.PL_thread_self()
-        if (pengine_id == -1):
+        if pengine_id == -1:
             pengine_id = cls.PL_thread_attach_engine(None)
             print("{INFO} attach pengine to thread: %d" % pengine_id)
-        if (pengine_id == -1):
+        if pengine_id == -1:
             raise pyswip.prolog.PrologError("Unable to attach new Prolog engine to the thread")
-        elif (pengine_id == -2):
+        elif pengine_id == -2:
             print("{WARN} Single-threaded swipl build, beware!")
 
     class _QueryWrapper(pyswip.Prolog._QueryWrapper):

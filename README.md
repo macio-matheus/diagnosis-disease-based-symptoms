@@ -5,8 +5,9 @@ Simple program that demonstrates how it is possible based on symptoms, define wh
 
 Dillinger uses a number of open source projects to work properly:
 
-* [Python 3.6.4] - for the backend
-* [Flask Framework] - python microframework
+* [Python 3.6.4] - For the backend
+* [Flask Framework] - Python microframework
+* [prolog-swi] - Free Prolog environment
 
 ### Docker
 Dillinger is very easy to install and deploy in a Docker container.
@@ -23,4 +24,20 @@ Run application in production environment
 ```sh
 cd diagnosis-disease-based-symptoms
 docker-compose up
+```
+
+### Manually
+To deploy the application manually, simply install the requirements
+
+```sh
+cd diagnosis-disease-based-symptoms
+pip install -r requirements.txt
+```
+
+Run application in production environment
+
+```sh
+cd diagnosis-disease-based-symptoms
+cd app
+python -m main
 ```

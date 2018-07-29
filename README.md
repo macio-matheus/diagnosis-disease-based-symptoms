@@ -4,7 +4,7 @@ Simple API to demonstrate a Knowledge Based System (KBS). The KBS concept can be
 
 ### KBS Architecture 
 
-
+![KBS architecture](https://raw.githubusercontent.com/macio-matheus/diagnosis-disease-based-symptoms/master/KBS-architecture.jpeg)
 
 ### Tech
 

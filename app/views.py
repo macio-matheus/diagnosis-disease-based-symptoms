@@ -30,7 +30,9 @@ def diagnosis():
 
 
 class PrologMT(pyswip.Prolog):
-    """Multi-threaded (one-to-one) pyswip.Prolog ad-hoc reimpl"""
+    """
+    Multi-threaded (one-to-one) pyswip.Prolog ad-hoc reimpl
+    """
     _swipl = pyswip.core._lib
 
     PL_thread_self = _swipl.PL_thread_self
